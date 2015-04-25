@@ -1,0 +1,6 @@
+#map_canvas { height: 600px }
+#myModalImages { overflow: auto; }
+.thumbnail-image { min-height:60px; height:60px; min-width:80px; width:80px;}
+#list_box { height: 600px; overflow: auto }
+.table-borderless td,
+.table-borderless th{ border: 0 !important }

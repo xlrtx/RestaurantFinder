@@ -1,0 +1,39 @@
+{
+   "html_attributions" : [],
+   "results" : [
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -27.497199,
+               "lng" : 153.015899
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+         "id" : "00783513b1b49d4079b36cfc97f8109e120a0618",
+         "name" : "Pizza Caffe",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 1632,
+               "html_attributions" : [ "由Google用户提供" ],
+               "raw_reference" : {
+                  "fife_url" : "https://lh5.googleusercontent.com/-8-YRQtpH5LE/TzDZzwqNIBI/AAAAAAAAATc/bnCXKLXWSA0/Pizza%2BCaffe"
+               },
+               "width" : 1224
+            }
+         ],
+         "place_id" : "ChIJdbmNaoNQkWsRNd_v7l_75LI",
+         "price_level" : 1,
+         "rating" : 4.8,
+         "reference" : "CmRfAAAAwZQwXQuSJp_sHn8QdoCpLxXkbRQBGvJK-9ObBD3-tTLFi4TZQcm0atYhyBvZm3puZpaPgxTzIDZ45t9-BgsqB3gUoRDCxwZHOrr7yGN8frsujUHLJZVXYZQKZhIqnmEbEhBi4fhqpTqxlF29pHNIv8JlGhRBBozOy7_8dg56p3k9h945Mx-ALw",
+         "scope" : "GOOGLE",
+         "types" : [ "cafe", "restaurant", "food", "establishment" ],
+         "vicinity" : "University Of Queensland",
+         "more_info" : "Here is more info!!"
+      }
+   ],
+   "status" : "OK"
+}
