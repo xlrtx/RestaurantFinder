@@ -159,7 +159,7 @@ function updateModal(index){
 function showMore(caller){
 	item = $('#list_box').children().eq(caller);
 	button = item.find('button');
-	button.text('Less');
+	button.text('Less Info');
 	button.attr('onclick','$(this).text("More Info");$(this).parent().find(".moreinfo").remove();$(this).attr("onclick","showMore(' + caller + ')");');
 	more = '<div class = "moreinfo"></br><p class="list-group-item-text">' + gb_results[caller].more_info + '</p></div>';
 	item.append(more);

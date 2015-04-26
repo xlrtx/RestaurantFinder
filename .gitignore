@@ -1,14 +1,1 @@
-*.class
-
-# Package Files #
-*.jar
-*.war
-*.ear
-
-# mvn build directory #
-target/
-
-# eclipse meta files #
-.classpath
-.project
-.settings/
+/build/

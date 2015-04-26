@@ -49,15 +49,22 @@ public class Restaurants {
   }
   
   @SuppressWarnings("unchecked")
-  boolean add(String itemJson){
+  boolean save(String itemJson){
     JSONParser parser = new JSONParser();
     try {
-      JSONObject newItem = (JSONObject)parser.parse(itemJson);
-      JSONArray results = (JSONArray)this.jsonObject.get("results");
-      results.add(newItem);
-      
+      Object items = parser.parse(itemJson);
+      if (! (items instanceof JSONArray) ){
+        JSONArray array = new JSONArray();
+        array.add(items);
+        items = array;
+        System.out.println("not array");
+        System.out.println(items.toString());
+      }else{
+        System.out.println("array");
+        System.out.println(items.toString());
+      }
       this.jsonObject.remove("results");
-      this.jsonObject.put("results", results);
+      this.jsonObject.put("results", items);
       
       FileWriter out = new FileWriter(this.path);
       out.write(this.jsonObject.toJSONString());

@@ -36,14 +36,14 @@ public class RestaurantController extends HttpServlet {
     
     if ( action.equalsIgnoreCase("get") ){
       out.println(rsts.get());
-    }else if( action.equalsIgnoreCase("add") ){
+    }else if( action.equalsIgnoreCase("save") ){
       
       
-      String item = request.getParameter("item");
-      if (rsts.add(item)){
-        out.println("{add:ok}");
+      String item = request.getParameter("items");
+      if (rsts.save(item)){
+        out.println("{save:ok}");
       }else{
-        out.println("{add:notok}");
+        out.println("{save:notok}");
       }
       
       
